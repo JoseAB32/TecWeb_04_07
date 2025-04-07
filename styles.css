@@ -1,0 +1,63 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: row;  /*Explica la linea principal de estilos*/
+    justify-content: space-evenly; /*Explica la organizacion por linea*/
+    flex-wrap: nowrap; /*explica el ajsute de salto de linea*/
+    align-items: center; /*Explica la prganizacion de la linea transversal(secundaria)*/
+    align-content: space-around; /*ajusta la organzizacion de las lineas*/
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.caja1{
+    flex-grow: 1;
+    flex-basis: 150px;
+    height: 80px;
+    background-color: blue;
+    font-size: 85px;
+    color: white;
+}
+
+.caja2{
+    width: 150px;
+    flex-grow: 2;
+    height: 80px;
+    background-color: red;
+    font-size: 85px;
+    color: white;
+}
+
+.caja3{
+    width: 150px;
+    height: 80px;
+    background-color: orange;
+    font-size: 85px;
+    color: white;
+    order: -1;
+    flex-grow: 1;
+}
+
+.caja4{
+    width: 33%;
+    height: 80px;
+    background-color: violet;
+    font-size: 85px;
+    color: white;
+    order: -1;
+}
+.caja5{
+    width: 33%;
+    height: 80px;
+    background-color: darkcyan;
+    font-size: 85px;
+    color: white;
+}
+
+.caja6{
+    width: 33%;
+    height: 80px;
+    background-color: green;
+    font-size: 85px;
+    color: white;
+}
