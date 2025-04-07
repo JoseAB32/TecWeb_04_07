@@ -11,8 +11,9 @@
 }
 
 .caja1{
+    flex-shrink: 1;
     flex-grow: 1;
-    flex-basis: 150px;
+    flex-basis: 900px;
     height: 80px;
     background-color: blue;
     font-size: 85px;
@@ -20,8 +21,12 @@
 }
 
 .caja2{
-    width: 150px;
-    flex-grow: 2;
+    /* flex-shrink: 2;
+    flex-basis: 900px;
+    flex-grow: 2; */
+    /* Simpre van juntas o s eusa:*/
+    flex:900px 2 2; /*flex-basis flex-shrink flex-grow*/
+
     height: 80px;
     background-color: red;
     font-size: 85px;
@@ -29,12 +34,12 @@
 }
 
 .caja3{
-    width: 150px;
+    flex-shrink: 1;
+    flex-basis: 900px;
     height: 80px;
     background-color: orange;
     font-size: 85px;
     color: white;
-    order: -1;
     flex-grow: 1;
 }
 
